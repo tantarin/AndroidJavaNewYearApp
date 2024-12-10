@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="custom_progress_color">#FF4081</color>
+    <color name="active_color">#FF6200EE</color> <!-- Цвет для активного состояния -->
+    <color name="inactive_color">#FF888888</color> <!-- Цвет для неактивного состояния -->
+</resources>

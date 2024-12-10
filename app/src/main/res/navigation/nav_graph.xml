@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/homeFragment">
+
+    <!-- Фрагмент "Главная" -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.myapplication.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <!-- Фрагмент "Выход" -->
+    <fragment
+        android:id="@+id/exitFragment"
+        android:name="com.example.myapplication.FinalFragment"
+        android:label="Exit"
+        tools:layout="@layout/fragment_final" />
+</navigation>
